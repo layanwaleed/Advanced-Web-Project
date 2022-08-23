@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Donuts Land | <%= title %></title>
+    </head>
+    <body>
+        <div class='top'>
+            <a href='/' class='title1'>DONUTS LAND</a>
+            <a href='/signin' class='a'>SIGN IN</a>
+            <a href='/signup' class='a'>SIGN UP</a>
+        </div>
+        
+        <div class='signin'>
+        <form action="/home" method="post">
+                      
+            <div class="signupcontainer">
+              <table>
+                <tr>
+                    <td><label for="username"><b>Username</b></label></td>
+                    </tr>
+                    <tr>
+                    <td><input type="text" placeholder="Enter Username" name="username" required></td>
+                </tr>
+              <tr>
+              <td><label for="email"><b>Email</b></label></td>
+              </tr>
+              <tr>
+              <td><input type="text" placeholder="Enter Email" name="email" required></td>
+               </tr>
+               <tr>
+              <td><label for="password"><b>Password</b></label></td>
+              </tr>
+              <tr>
+              <td><input type="password" placeholder="Enter Password" name="password" required></td>
+              </tr>
+
+              <tr>
+                <td><label for="phone"><b>Phone Number</b></label></td>
+                </tr>
+                <tr>
+                <td><input type="phone" placeholder="Enter Phone" name="phone" required></td>
+                 </tr>
+              </table>
+              <button type="submit" class='butn'>Sign Up</button>
+            </div>
+          
+          </form>
+
+</div>
+
+
+
+
+
+    </body>
+</html>

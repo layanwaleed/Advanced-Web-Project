@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Donuts Land | <%= title %></title>
+    </head>
+    <body>
+        <div class='top'>
+            <a href='/adminhome' class='title2'>DONUTS LAND</a>
+            <a href='/' class='a'>SIGN OUT</a>
+           
+        </div>
+        <div class='table'>
+            <table>
+                <tr>
+                    <th class='th'>Username</th>
+                    <th class='th'>Email</th>
+                    <th class='th'>Password</th>
+                    <th class='th'>Phone</th>
+                </tr>
+                <%if (theuser.length>0){%>
+                    <% theuser.forEach(user => { %>
+                        <tr>
+                            <td><%= user.username %></td>
+                            <td><%= user.email %></td>
+                            <td><%= user.password %></td>
+                            <td><%= user.phone %></td>
+                            <td><a class='delete' data-doc='<%= user._id %>'>Delete</a></td>
+                        </tr>
+                    <% }) %>
+                <% } else { %>
+                    <p>There are no users to display</p>
+                    <% } %>
+            </table>
+        </div>
+
+
+
+
+        <script>
+            const trash = document.querySelector('a.delete');
+            trash.addEventListener('click',(e)=>{
+                const theid = trash.dataset.doc;
+                const endpoint = '/adminusers/'+ theid;
+                fetch(endpoint , {
+                    method : 'DELETE'
+                })
+                .then((response)=>response.json())
+                .then((data)=>console.log(data))
+                .catch(err=> console.log(err))
+            })
+        </script>
+    </body>
+</html>

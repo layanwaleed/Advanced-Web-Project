@@ -1,0 +1,270 @@
+body{
+    background-color: #d8bdc48a;
+    overflow-x: hidden;
+}
+
+.header{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: #4b4348be;
+}
+
+.title1{
+    font-size: medium;
+    text-decoration: none;
+    margin-right: 30%;
+    color: black;
+}
+
+.title2{
+    font-size: medium;
+    text-decoration: none;
+    margin-right: 37%;
+    color: black;
+}
+
+.top{
+    background-color: #5843508a;
+    padding:3%;
+    text-align: right;
+    margin-top: -2%;
+    margin-left: -3%;
+    margin-right: -3%;
+    padding-top: 4%;
+    padding-right: 5%;
+}
+
+
+.a{
+    text-decoration: none;
+    font-size: medium;
+    margin: 1%;
+    color: black;
+}
+
+
+.a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.imgdiv{
+   text-align: center;
+   margin-top: 3%;
+}
+
+
+.error{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 60px;
+    font-weight: 200;
+    color: #4b4348be;
+    margin-top: 20%;
+}
+
+
+.text{
+    text-align: center;
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: #4b4348be;
+    
+}
+
+.signin{
+    background-image: url('/images/donut10.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+    margin-left: -3%;
+    margin-right: -3%;
+    overflow-y: hidden;
+}
+
+
+.container{
+    background-color: #d8bdc4dc;
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    font-family:sans-serif;
+}
+
+
+.signupcontainer{
+    background-color: #d8bdc4dc;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    font-family:sans-serif;
+}
+
+.butn{
+    margin-left: -50%;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: #584350de;
+    width:50%;
+    color: white;
+    font-family:sans-serif;
+}
+
+tr input{
+    margin-bottom: 5%;
+}
+
+.image{
+    text-align: center;
+    height: 250px;
+    width:350px;
+    float: left;
+    margin-left:3%;
+    
+}
+.image p{
+    margin-top: 30%;
+}
+
+
+#img1{
+    background-image: url('/images/donut5.jpg');
+    background-size: cover;
+}
+
+#img2{
+    background-image: url('/images/donut11.jpg');
+    background-size: cover;
+}
+
+#img3{
+    background-image: url('/images/donut13.jpg');
+    background-size: cover;
+}
+
+p{
+    font-size: x-large;
+    margin-bottom: 4%;
+    color: black;
+    text-align: center;
+}
+
+#img1:hover{
+    background-image: unset;
+    background-color: #6b5964de;
+}
+
+#img2:hover{
+    background-image: unset;
+    background-color: #6b5964de;
+}
+
+#img3:hover{
+    background-image: unset;
+    background-color: #6b5964de;
+}
+
+.admin{
+    text-decoration: none;
+    font-size: small;
+    margin-left: -50%;
+    color: black;
+}
+
+
+.admin:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+#aimg1{
+    background-image: url('/images/donut6.jpg');
+    background-size: cover;
+}
+
+#aimg2{
+    background-image: url('/images/donut13.jpg');
+    background-size: cover;
+}
+
+#aimg3{
+    background-image: url('/images/donut15.jpg');
+    background-size: cover;
+}
+
+#aimg1:hover{
+    background-image: unset;
+    background-color: #6b5964de;
+}
+
+#aimg2:hover{
+    background-image: unset;
+    background-color: #6b5964de;
+}
+
+#aimg3:hover{
+    background-image: unset;
+    background-color: #6b5964de;
+}
+
+.order{
+    background-color: #d8bdc4dc;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    font-family:sans-serif;
+}
+
+.orderdiv{
+    margin-top: -2%;
+    padding-bottom: 2%;
+    background-image: url('/images/donut4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.ordertext{
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    font-family:sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+
+.table{
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    margin-left: 18%;
+}
+
+.th{
+    padding : 2%;
+}
+
+.delete:hover{
+    cursor: pointer;
+}

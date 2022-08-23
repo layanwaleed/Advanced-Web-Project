@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Donuts Land | <%= title %></title>
+    </head>
+    <body >
+        <div class='top'>
+            <a href='/home' class='title2'>DONUTS LAND</a>
+            <a href='/' class='a'>SIGN OUT</a>
+           
+        </div>
+<div class='orderdiv'>
+        <h3 class='ordertext'>DO-NUT Miss Out On our Fluffy Donuts</h3>
+        
+      
+        
+            <div class='order'>
+            <form action='ordercomplete' method="post">
+            <table>
+                <tr>
+                    <td><label for="orderby"><b>Username</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" placeholder="Enter Username" name="orderby" required></td>
+                </tr>
+                <tr>
+                    <td><label for="chocolate"><b>Chocolate Donuts:</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Qty" name="chocolate" required min="0" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="vanilla"><b>Vanilla Donuts:</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Qty" name="vanilla" required min="0" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="sugared"><b>Sugared Donuts:</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Qty" name="sugared" required min="0" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="plain"><b>Plain Donuts:</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Qty" name="plain" required min="0" max="10"></td>
+                </tr>
+                <tr>
+                    <td><label for="nutella"><b>Nutella Donuts:</b></label></td>
+                </tr>
+                <tr>
+                    <td><input type="number" placeholder="Qty" name="nutella" required min="0" max="10"></td>
+                </tr>
+            </table>
+            <button type="submit" class='butn'>Submit Order</button>
+            </form>
+            </div>
+        </div>
+
+      
+
+
+
+    </body>
+</html>
